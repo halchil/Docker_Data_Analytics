@@ -1,7 +1,17 @@
-# 作成順
+
 
 # システム構成図
 
+# 公式ドキュメント
+
+
+# 作成順
+db起動確認
+dashboard表示確認
+データ取得確認
+
+# 事前準備
+ネットワーク作成
 
 # Docker_Data_Analytics
 
@@ -168,3 +178,4 @@ docker run -p 8501:8501 --network=db_mynet --env-file ../shared/.env news-dashbo
 ```
 
 → ブラウザで http://localhost:8501 を開けば表示されます。
+
